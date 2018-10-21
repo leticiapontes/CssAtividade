@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    
+    <head>
+        <meta charset = "utf-8">
+    </head>
+    
+    <body>
+        <div>
+        
+            <h1> Questão 1 - letra a </h1>
+            <p>
+                Sim, é possível e comum essa sobreposição, pois as características definidas
+                pelos mais específicos sobrepõem sempre as definidas pelos mais genéricos. A técnica utilizada para isso chama-se (overriding).
+                
+            </p>
+            
+            <h1> Questão 1 - letra b </h1>
+            <p>
+                Supondo que usássemos uma regra geral para o cabeçalho do nível 1, 2 e 3, exemplo; padronizando a cor fonte como (preto) e em seguida criássemos uma regra específica somente para o cabeçalho de nível 1, onde seria definido a cor como (vermelho). Sendo assim, o navegador reagiria exibindo o cabeçalho de nível 1 na cor vermelha e os outros dois, níveis 2 e 3 na cor (preta).
+            </p>
+            
+            <h1> Questão 1 - letra c </h1>
+            <p>  Algumas de suas vantagens são a economia no tráfego do servidor, reutilização de código, flexibilidade para a utização  de outras mídias.
+            </p>
+            
+            <h1> Questão 1 - letra d </h1>
+            <p>
+                 Existem algumas propriedades do CSS que quando aplicadas aos “elementos pais”, os “elementos filhos” e até mesmo os “elementos netos” herdam as características aplicada no pai, sendo assim uma regra explícita para todos. Um exemplo disso é a propriedade color. Considerando a regra CSS mostrada no exemplo a seguir, que é destinada a definir a cor do texto de um elemento "p" (parágrafo) que contém um elemento "em" (ênfase). Ou seja, o elemento "em" é filho do elemento "p".
+            </p>
+            <img src="Imagem/image01.png"/>
+            <img src="Imagem/image02.png"/>
+            <p>  
+                Com base no exemplo dessas imagens, nota-se que embora não tenhamos definido explicitamente uma cor para o elemento "em" ele foi renderizado na cor vermelha. Isso se deu devido a herança CSS. O que ocorreu foi que o elemento "em" herdou a propriedade "color" de seu elemento-pai "p". 
+                Lembrando que uma propriedade CSS não herda somente do seu elemento pai. Ela  pode ser herdada de um elemento ancestral. Felizmente, nem todas as propriedades CSS são herdáveis. Ex: (background, content, display...) A vantagem da herança é exatamente podermos modificar poucas linhas do CSS para fazer alterações no site inteiro, sem ter que caçar elemento por elemento e modificando suas propriedades.
+            </p>
+            
+            <h1> Questão 1 - letra e </h1>
+            <p>
+                Sim, pois sabemos que ao declarar uma regra CSS específica para um elemento da página ela sobrescreve (ou prevalece sobre) a herança, sempre.
+            </p>
+            
+            
+        </div>
+    </body>
+</html>
